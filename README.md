@@ -1,19 +1,19 @@
-# 🧠 Handwritten Digit Classification using CNN
+# Handwritten Digit Classification using CNN
 
 A deep learning project that classifies handwritten digits (0–9) using a Convolutional Neural Network (CNN) trained on the MNIST dataset. This project demonstrates the power of CNNs in solving image classification problems and forms a foundation for Optical Character Recognition (OCR) systems.
 
-## 📌 Project Overview
+## Project Overview
 
 This project aims to build a high-accuracy digit recognizer that can identify handwritten numbers regardless of variations in writing style. It applies Convolutional Neural Networks for feature extraction and classification.
 
-## 👥 Author
+## Author
 
 * Ganesh M 
 * April 5, 2025
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 * **Source**: MNIST Dataset (CSV Format)
 * **Samples**: 70,000 grayscale images (28x28 pixels)
@@ -26,7 +26,7 @@ Each image is a 784-dimensional flattened vector with an associated label.
 
 ---
 
-## 🧮 Model Architecture
+## Model Architecture
 
 The CNN model consists of the following layers:
 
@@ -40,7 +40,7 @@ The CNN model consists of the following layers:
 
 ---
 
-## ⚙️ Training Details
+## Training Details
 
 * **Optimizer**: Adam
 * **Loss Function**: Categorical Crossentropy
@@ -50,7 +50,7 @@ The CNN model consists of the following layers:
 
 ---
 
-## 📈 Evaluation
+## Evaluation
 
 The model was evaluated on various metrics:
 
@@ -60,7 +60,7 @@ The model was evaluated on various metrics:
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 * Training & Validation Loss vs. Epoch
 * Training & Validation Accuracy vs. Epoch
